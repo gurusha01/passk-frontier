@@ -1,0 +1,4 @@
+runs/*/rollouts.jsonl filter=lfs diff=lfs merge=lfs -text
+runs/*/probe/*.jsonl filter=lfs diff=lfs merge=lfs -text
+results/*.png filter=lfs diff=lfs merge=lfs -text
+results/report.html filter=lfs diff=lfs merge=lfs -text

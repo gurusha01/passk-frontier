@@ -1,0 +1,14 @@
+# model checkpoints: 65 runs x ~3GB, regenerable from the code + logs
+runs/*/final/
+*.safetensors
+*.bin
+__pycache__/
+*.pyc
+emx/ cmp/ ev3/ e4/
+*.bak
+logs/
+*.log
+scrub.py
+patch3.py
+patch_cap.py
+allruns.txt
